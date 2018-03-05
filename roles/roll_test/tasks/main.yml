@@ -1,0 +1,5 @@
+---
+# tasks file for roll_test
+    - name: Hello Message
+      debug:
+        msg: "Hello {{ my_variable }}!"

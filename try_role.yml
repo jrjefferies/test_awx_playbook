@@ -1,0 +1,7 @@
+---
+- name: Hello World Sample
+  hosts: all
+
+  roles:
+    - role: role_test
+
